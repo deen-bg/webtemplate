@@ -1,103 +1,315 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?>
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="SHIRA Furniture">
-    <meta name="author" content="SHIRA Furniture">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<meta property="og:site_name" content="SHIRA FURNITURE" /> <!-- website name -->
-	<meta property="og:site" content="SHIRA FURNITURE" /> <!-- website link -->
-	<meta property="og:title" content="SHIRA FURNITURE"/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="SHIRA FURNITURE" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="SHIRA FURNITURE" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="SHIRA FURNITURE" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
-    <!-- Webpage Title -->
-    <title>Home SHIRA Furniture</title>
-    <!-- Favicon  -->
-    <link rel="shortcut icon" href="<?=base_url('./assets/img/logo/logo.png');?>">
-    <!-- Styles -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="<?=base_url('assets/frontend/css/bootstrap.css');?>" rel="stylesheet">
-    <link href="<?=base_url('assets/frontend/css/fontawesome-all.css');?>" rel="stylesheet">
-    <link href="<?=base_url('assets/frontend/css/swiper.css');?>" rel="stylesheet">
-	<link href="<?=base_url('assets/frontend/css/magnific-popup.css');?>" rel="stylesheet">
-	<link href="<?=base_url('assets/frontend/css/styles.css');?>" rel="stylesheet">
+  <title>Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="<?=base_url('./assets/main/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
+  <link href="<?=base_url('./assets/main/vendor/bootstrap-icons/bootstrap-icons.css');?>" rel="stylesheet">
+  <link href="<?=base_url('./assets/main/vendor/boxicons/css/boxicons.min.css');?>" rel="stylesheet">
+  <link href="<?=base_url('./assets/main/vendor/glightbox/css/glightbox.min.css');?>" rel="stylesheet">
+  <link href="<?=base_url('./assets/main/vendor/swiper/swiper-bundle.min.css');?>" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="<?=base_url('./assets/main/css/style.css');?>" rel="stylesheet">
+
+  <!-- fontawesome v.5.10.0  -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!-- =======================================================
+  * Template Name: Lumia - v4.5.0
+  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body data-spy="scroll" data-target=".fixed-top" >
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" id="fullpage">
-                   <div class="carousel-inner">
-                       <div class="carousel-item active">
-                           <img id="img-product"class="d-block w-100" src="<?=base_url('assets\img\product\new.png');?>" alt="First slide" style="width: 100%;  height: auto;">
-                        </div>
-                           <div class="carousel-item">
-                              <img  id="img-product" class="d-block w-100" src="<?=base_url('assets\img\product\2dinning.png');?>" alt="Second slide" style="width: 100%;  height: auto;">
-                            </div>
-                                <div class="carousel-item">
-                                     <img  id="img-product" class="d-block w-100" src="<?=base_url('assets\img\product\3chiar.png');?>" alt="Third slide" style="width: 100%;  height: auto;">
-                                </div>
-                             </div>
-                            <div class="carousel-item">
-                          <img  id="img-product" class="d-block w-100" src="<?=base_url('assets\img\product\4stool.png');?>" alt="Third slide" style="width: 100%;  height: auto;">
-                        </div>
-                      </div>
-                 </div>
-    <!-- Footer -->
-<div class="footer" >
-        <div class="container mt-0">
-            <div class="row">
-                <div class="col-lg-12">
-                <div class="d-flex justify-content-center">
-                <img class="d-block w-100" src="<?=base_url('assets/img/logo/logo.jpeg');?>" alt="Third slide" id="logo-footer">
-                
-                </div>
-                <h5 id="footer" style="color: #eac5b1;">Follow Me</h5>
 
-                    <div class="social-container">
-                        <span class="fa-stack">
-                            <a href="assets/img/icon/f.png">
-                            <a href="https://www.facebook.com/Shirahomeliving/" target="_blank"><i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                            <a href="https://liff.line.me/1645278921-kWRPP32q?accountId=shirafurniture&openerPlatform=native&openerKey=talkroom%3Amessage#mst_challenge=TaZYnYLV-mHHNzzy8FP-rxRrI1KuodPmOMpKvtuu-iw" target="_blank"><i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-line fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                            <a href="https://www.instagram.com/shirafurniture/" target="_blank"><i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-youtube fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <p class="copyright" Styles="text-align: center;">Copyright © SHIRA FURNITURE , All rights reserved.</p>
-                    </div> <!-- end of social-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+<body>
 
-    <script src="<?=base_url('assets/frontend/js/jquery.min.js');?>"></script> 
-    <script src=" <?=base_url('assets/frontend/js/bootstrap.min.js');?>"></script> 
-    <script src="<?=base_url('assets/frontend/js/jquery.easing.min.js');?>"></script> 
-    <script src=" <?=base_url('assets/frontend/js/swiper.min.js');?>"></script> 
-    <script src=" <?=base_url('assets/frontend/js/jquery.magnific-popup.js');?>"></script> 
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="#hero">TEMPLATE</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Web Layout</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="fas fa-caret-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="fas fa-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex align-items-center">
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="fab fa-youtube"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Welcome to <span>web template</span></h1>
+      <h2>We are team of talented designers making websites with Bootstrap</h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+    <!-- ======= Web layout Section ======= -->
+    <section id="weblayout" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Web layout</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <!-- <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-1.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-1.jpg');?>" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="https://pantoneinterior.com/" target="_blank" class="link-details" title="More Details">
+                  <i class="fal fa-link"></i>
+                </a>
+              </figure>
+
+              <div class="portfolio-info">
+                <!-- <h4><a href="portfolio-details.html">Layout 1</a></h4> -->
+                <h4><a href="https://pantoneinterior.com/" target="_blank">Layout 1</a></h4>
+                <p>WEB</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-2.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-2.jpg');?>" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="https://pawaninter.com/" target="_blank" class="link-details" title="More Details"><i class="fal fa-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <!-- <h4><a href="portfolio-details.html">Layout 2</a></h4> -->
+                <h4><a href="https://pawaninter.com/">Layout 2</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-3.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-3.jpg');?>" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="https://gdesigncurtain.com/" target="_blank" class="link-details" title="More Details"><i class="fal fa-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://gdesigncurtain.com/">Layout 3</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-4.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-4.jpg');?>" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="https://saithong99.com/" target="_blank" class="link-details" title="More Details"><i class="fal fa-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://saithong99.com/" target="_blank">Layout 4</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-5.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-6.jpg');?>" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="https://hobbyarrowsols.group" target="_blank" class="link-details" title="More Details"><i class="fal fa-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://hobbyarrowsols.group" target="_blank">Layout 5</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-6.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-6.jpg');?>" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="https://refinancejumnumcar.com/" target="_blank" class="link-details" title="More Details"><i class="fal fa-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://refinancejumnumcar.com/" target="_blank">Layout 6</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-7.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-7.jpg');?>" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="https://brickhouse-test.com/tumpakpert-demo/" target="_blank" class="link-details" title="More Details"><i class="fal fa-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://brickhouse-test.com/tumpakpert-demo/" target="_blank">Layout 7</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-8.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-8.jpg');?>" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="<?=base_url('layout-8')?>" class="link-details" title="More Details"><i class="fal fa-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="<?=base_url('layout-8')?>">Layout 8</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="<?=base_url('./assets/main/img/portfolio/portfolio-9.jpg');?>" class="img-fluid" alt="">
+                <a href="<?=base_url('./assets/main/img/portfolio/portfolio-9.jpg');?>" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="far fa-search-plus"></i></a>
+                <a href="<?=base_url('layout-9')?>" class="link-details" title="More Details"><i class="fal fa-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="<?=base_url('layout-9')?>">Layout9</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright 2021. All Rights Reserved
+        </div>
+        <div class="credits">
+          </a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+  <i class="fas fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="<?=base_url('./assets/main/vendor/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
+  <script src="<?=base_url('./assets/main/vendor/glightbox/js/glightbox.min.js');?>"></script>
+  <script src="<?=base_url('./assets/main/vendor/isotope-layout/isotope.pkgd.min.js');?>"></script>
+  <script src="<?=base_url('./assets/main/vendor/php-email-form/validate.js');?>"></script>
+  <script src="<?=base_url('./assets/main/vendor/purecounter/purecounter.js');?>"></script>
+  <script src="<?=base_url('./assets/main/vendor/swiper/swiper-bundle.min.js')?>"></script>
+  <script src="<?=base_url('./assets/main/vendor/waypoints/noframework.waypoints.js');?>"></script>
+
+  <!-- Template Main JS File -->
+  <script src="<?=base_url('./assets/main/js/main.js');?>"></script>
+
 </body>
+
 </html>
